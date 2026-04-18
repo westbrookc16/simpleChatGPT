@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build output
+dist/
+*.nvda-addon
+
+# Generated at build time
+addon/manifest.ini
+addon/doc/*/readme.html
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
